@@ -61,36 +61,36 @@ This lab demonstrates a full Active Directory and Group Policy Management implem
 
 ### 🔹 User Groups and Admin Center
 ![IT OU Users](images/05-OU-IT-Users.png)
-*IT OU Users*
+*IT OU with 4 users*
 
 ![ADAC Overview](images/06-ADAC-Overview.png)
-*ADAC Overview*
+*Active Directory Administrative Center Overview*
 
 ![Server Manager](images/07-Server-Manager-View.png)
-*Server Manager*
+*Web Server Manager Active Directory view*
 
 ### 🔹 Group Management & Delegation
 ![ITADMINS Group Members](images/08-Group-Members-ITADMINS.png)
-*ITADMINS Group Members*
+*ITADMINS group with 4 members*
 
 ![Delegation Wizard](images/09-Delegation-Complete.png)
-*Delegation Wizard*
+*Delegation of Control Wizard complete screen*
 
 ### 🔹 OU Permissions & Security
 ![Advanced Permissions](images/10-Advanced-Permissions-Research.png)
-*Advanced Permissions*
+*Advanced Permissions - Research OU – advanced security settings*
 
 ### 🔹 GPO Configuration
 ![GPO Scope – EndpointBaseline](images/11-GPO-EndpointBaseline-Scope.png)
-*GPO Scope – EndpointBaseline*
+*Shows the EndpointBaseline-6803 GPO and its linked scope.*
 
 ### 🔹 Firewall Configuration
 ![Firewall Rules – Inbound & Outbound](images/12-WindowsFirewall-Inbound-Outbound-Rules.png)
-*Firewall Rules – Inbound & Outbound*
+*Firewall Rules – Inbound & Outbound (notepad allowed, IE blocked).*
 
 ![Firewall Log – Event Viewer](images/13-WindowsFirewall-EventLog.png)
-*Firewall Log – Event Viewer*
+*Firewall Log – Event Viewer(Shows a log entry for the “Block Internet Explorer” firewall rule.)*
 
 ### 🔹 GPO ADMX Templates
 ![ADMX Settings](images/15-GPO-Editor-ADMX-Templates.png)
-*ADMX Settings*
+*ADMX Settings(GPO editor with ADMX templates from central store (Control Panel, LAPS, etc.))*
