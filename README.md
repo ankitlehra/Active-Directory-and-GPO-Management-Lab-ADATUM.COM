@@ -46,8 +46,38 @@ This lab demonstrates a full Active Directory and Group Policy Management implem
 
 ## 📸 Screenshots
 
-All configuration and setup steps are documented in the `/images` folder. Key highlights:
-- ADUC configuration
-- Group creation and delegation
-- GPO linking and editing
-- Firewall rules and log validation
+### 🔹 OU and Account Setup
+![Service Account OU](images/01-OU-Service-Account.png)
+*Organizational Unit created for Service Accounts.*
+
+![VIP User Properties](images/02-VIP-Account-Properties.png)
+*User properties of a VIP user – Colin Hunt.*
+
+![Logon Hours](images/03-Logon-Hours-Colin.png)
+*Logon hours configured for weekdays, 9 AM to 6 PM.*
+
+![Object Protection](images/04-Object-Details-prevent-accidental-deletion-Colin.png)
+*User object protected from accidental deletion.*
+
+### 🔹 User Groups and Admin Center
+![IT OU Users](images/05-OU-IT-Users.png)
+![ADAC Overview](images/06-ADAC-Overview.png)
+![Server Manager](images/07-Server-Manager-View.png)
+
+### 🔹 Group Management & Delegation
+![ITADMINS Group Members](images/08-Group-Members-ITADMINS.png)
+![Delegation Wizard](images/09-Delegation-Complete.png)
+
+### 🔹 OU Permissions & Security
+![Advanced Permissions](images/10-Advanced-Permissions-Research.png)
+
+### 🔹 GPO Configuration
+![GPO Scope – EndpointBaseline](images/11-GPO-EndpointBaseline-Scope.png)
+
+### 🔹 Firewall Configuration
+![Firewall Rules – Inbound & Outbound](images/12-WindowsFirewall-Inbound-Outbound-Rules.png)
+![Firewall Log – Event Viewer](images/13-WindowsFirewall-EventLog.png)
+![All Rules View](images/14-WindowsFirewall-FullRulesView.png)
+
+### 🔹 GPO ADMX Templates
+![ADMX Settings](images/15-GPO-Editor-ADMX-Templates.png)
