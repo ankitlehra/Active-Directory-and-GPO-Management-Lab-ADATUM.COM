@@ -4,7 +4,7 @@ This lab demonstrates a full Active Directory and Group Policy Management implem
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Active Directory Users and Computers (ADUC)
 - Active Directory Administrative Center (ADAC)
@@ -15,7 +15,7 @@ This lab demonstrates a full Active Directory and Group Policy Management implem
 
 ---
 
-## 📋 Key Tasks & Activities
+## Key Tasks & Activities
 
 ### 1. **Active Directory Management**
 - Created a domain structure for `adatum.com`.
@@ -46,7 +46,7 @@ This lab demonstrates a full Active Directory and Group Policy Management implem
 
 ## 📸 Screenshots
 
-### 🔹 OU and Account Setup
+### OU and Account Setup
 ![Service Account OU](images/01-OU-Service-Account.png)
 *Organizational Unit created for Service Accounts.*
 
@@ -59,7 +59,7 @@ This lab demonstrates a full Active Directory and Group Policy Management implem
 ![Object Protection](images/04-Object-Details-prevent-accidental-deletion-Colin.png)
 *User object protected from accidental deletion.*
 
-### 🔹 User Groups and Admin Center
+### User Groups and Admin Center
 ![IT OU Users](images/05-OU-IT-Users.png)
 *IT OU with 4 users*
 
@@ -69,28 +69,28 @@ This lab demonstrates a full Active Directory and Group Policy Management implem
 ![Server Manager](images/07-Server-Manager-View.png)
 *Web Server Manager Active Directory view*
 
-### 🔹 Group Management & Delegation
+### Group Management & Delegation
 ![ITADMINS Group Members](images/08-Group-Members-ITADMINS.png)
 *ITADMINS group with 4 members*
 
 ![Delegation Wizard](images/09-Delegation-Complete.png)
 *Delegation of Control Wizard complete screen*
 
-### 🔹 OU Permissions & Security
+### OU Permissions & Security
 ![Advanced Permissions](images/10-Advanced-Permissions-Research.png)
 *Advanced Permissions - Research OU – advanced security settings*
 
-### 🔹 GPO Configuration
+### GPO Configuration
 ![GPO Scope – EndpointBaseline](images/11-GPO-EndpointBaseline-Scope.png)
 *Shows the EndpointBaseline-6803 GPO and its linked scope.*
 
-### 🔹 Firewall Configuration
+### Firewall Configuration
 ![Firewall Rules – Inbound & Outbound](images/12-WindowsFirewall-Inbound-Outbound-Rules.png)
 *Firewall Rules – Inbound & Outbound (notepad allowed, IE blocked).*
 
 ![Firewall Log – Event Viewer](images/13-WindowsFirewall-EventLog.png)
 *Firewall Log – Event Viewer(Shows a log entry for the “Block Internet Explorer” firewall rule.)*
 
-### 🔹 GPO ADMX Templates
+### GPO ADMX Templates
 ![ADMX Settings](images/15-GPO-Editor-ADMX-Templates.png)
 *ADMX Settings(GPO editor with ADMX templates from central store (Control Panel, LAPS, etc.))*
